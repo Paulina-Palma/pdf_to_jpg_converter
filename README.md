@@ -21,11 +21,15 @@ Make sure you have the following installed:
 ## Installation
 
 ### 1. Clone the repository
+```bash
 git clone https://github.com/Paulina-Palma/pdf_to_jpg_converter.git
+```
 
 ### 2. Install dependencies
 Use pip to install the required Python packages:
+```bash
 pip install pdf2image Pillow PyInstaller
+```
 
 ### 3. Install Poppler
 pdf2image requires Poppler, a PDF rendering library. Follow the instructions below based on your operating system:
@@ -41,13 +45,17 @@ pdf2image requires Poppler, a PDF rendering library. Follow the instructions bel
 **macOS**
 
 Install Poppler using Homebrew:
+```bash
 brew install poppler
+```
 
 **Linux**
 
 Install Poppler using your package manager (e.g., Ubuntu):
+```bash
 sudo apt update
 sudo apt install poppler-utils
+```
 
 ## Usage
 
