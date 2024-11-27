@@ -8,6 +8,10 @@ A simple Python application that converts PDF files into images using a GUI buil
 - **Progress Bar**: Displays the progress of the conversion.
 - **Desktop Folder**: Saves images in an `extracted_images` folder created on the desktop.
 
+## Screenshots
+![pdf_to_jpg_converter](https://github.com/user-attachments/assets/1f3f298f-ce91-4099-a6c4-6c02e66523ef)
+
+
 ## Requirements
 Make sure you have the following installed:
 
@@ -65,24 +69,25 @@ Running the Standalone Application:
 
 **On Windows**: Double-click pdf_to_image_converter.exe.
 
-**On macOS/Linux**: Execute the file in a terminal.
+**On macOS/Linux**: 
 
-Running from Source
+Running from Source - Execute the file in a terminal.
 
 - Run the script using Python:
 python pdf_to_image_converter.py
 
-- Use the GUI to:
+- Use the GUI - pdf_to_image_converter.app:
 
 Browse and select a PDF file.
 Click the "Convert" button to start the conversion.
 View the progress bar indicating conversion status.
 Images will be saved to the extracted_images folder on your desktop.
 
-## Screenshots
+
 
 ## Troubleshooting
 
-Error: "Unable to get page count. Is poppler installed and in PATH?"
-Make sure Poppler is correctly installed and added to your system's PATH.
+= Error: "Unable to get page count. Is poppler installed and in PATH?"
+
+- Make sure Poppler is correctly installed and added to your system's PATH.
 
