@@ -3,10 +3,10 @@
 A simple Python application that converts PDF files into images using a GUI built with `tkinter`. The program allows users to select a PDF file, convert it to individual JPEG images, and saves the images in a designated folder on the desktop.
 
 ## Features
-- **PDF Conversion**: Converts each page of a PDF to a JPEG image.
-- **File Selection**: Allows the user to select a PDF file via a file dialog.
-- **Progress Bar**: Displays the progress of the conversion.
-- **Desktop Folder**: Saves images in an `extracted_images` folder created on the desktop.
+- **PDF Conversion**: Converts each page of a PDF to a JPEG image
+- **File Selection**: Allows the user to select a PDF file via a file dialog
+- **Progress Bar**: Displays the progress of the conversion
+- **Desktop Folder**: Saves images in an `extracted_images` folder created on the desktop
 
 ## Screenshots
 ![pdf_to_jpg_converter](https://github.com/user-attachments/assets/1f3f298f-ce91-4099-a6c4-6c02e66523ef)
